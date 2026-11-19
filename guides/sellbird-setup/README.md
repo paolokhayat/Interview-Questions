@@ -35,7 +35,7 @@ config loader. Nothing was trained, no Claude login was used and no email was se
 | A computer that stays on | macOS or Linux, ideally. Windows works with Claude. |
 | Python 3.11+ | macOS: `brew install python@3.13` |
 | Claude Pro or Max | with Claude Code installed and `claude login` done |
-| A sending domain | a **second** domain (e.g. `eigenflow-mail.fr`), never `eigenflow.fr` itself |
+| A sending domain | a **second** domain (e.g. `creatorsummit-mail.online`), never `creatorsummit.online` itself |
 | A mailbox on it | Google Workspace, about 7 $/month |
 | SPF, DKIM, DMARC | set on that domain (Google Workspace admin shows you the records) |
 | Warmup | TrulyInbox or another service, running 2-4 weeks before cold email |
@@ -95,7 +95,7 @@ persona:
 channels:
   email:
     provider: "gmail"
-    link_domains: ["eigenflow.fr"]     # your main site, since you send from another domain
+    link_domains: ["creatorsummit.online"] # your main site, since you send from another domain
     warmup:
       start_date: "YYYY-MM-DD"         # the day warmup started
 compliance:
@@ -114,7 +114,7 @@ sellbird gmail test
 ## 5. Learn the product
 
 ```bash
-sellbird train https://eigenflow.fr
+sellbird train https://creatorsummit.online
 python france_settings.py      # training resets icp.geography, so put France back
 ```
 
