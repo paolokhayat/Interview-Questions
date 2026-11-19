@@ -106,19 +106,19 @@ C’est le meilleur choix du projet. Chaque email attend dans une boîte d’env
 
 Avant l’envoi, un contrôle sans modèle rejette les balises non remplies, les emails trop longs, les liens en trop et les adresses qui ne collent pas à la fiche. Et **harvey sending pause** coupe tout.
 
-![La boîte d’envoi de la démo : l’email, ce que Harvey sait de l’entreprise, Approve, Edit, Reject.](https://eigenflow.fr/guides/harvey-agent-prospection-claude-code/outbox.jpg)
+![La boîte d’envoi de la démo : l’email, ce que Harvey sait de l’entreprise, Approve, Edit, Reject.](harvey-agent-prospection-claude-code/outbox.jpg)
 
 *La boîte d’envoi de la démo : l’email, ce que Harvey sait de l’entreprise, Approve, Edit, Reject.*
 
 Le tableau de bord tourne en local, à l’adresse **127.0.0.1:5555**. La page Today rassemble ce qui attend ta décision.
 
-![La page Today de la démo : contacts trouvés, emails envoyés, conversations, et les contacts par étape.](https://eigenflow.fr/guides/harvey-agent-prospection-claude-code/today.jpg)
+![La page Today de la démo : contacts trouvés, emails envoyés, conversations, et les contacts par étape.](harvey-agent-prospection-claude-code/today.jpg)
 
 *La page Today de la démo : contacts trouvés, emails envoyés, conversations, et les contacts par étape.*
 
 Quand une réponse sort de son cadre, il te rend la main. Dans la démo, un prospect demande un contrat : Harvey s’arrête et te laisse répondre.
 
-![Une conversation rendue à l’humain dans la démo : le prospect veut voir le contrat.](https://eigenflow.fr/guides/harvey-agent-prospection-claude-code/conversations.jpg)
+![Une conversation rendue à l’humain dans la démo : le prospect veut voir le contrat.](harvey-agent-prospection-claude-code/conversations.jpg)
 
 *Une conversation rendue à l’humain dans la démo : le prospect veut voir le contrat.*
 
